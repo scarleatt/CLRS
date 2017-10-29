@@ -11,9 +11,9 @@ int main() {
             i--;
         }
         arr[i+1] = key;
-        for (i = 0; i < 6; i++)
-            cout<<arr[i]<<" ";
-        cout<<endl;
     }
+    for (i = 0; i < 6; i++)
+        cout<<arr[i]<<" ";
+    cout<<endl;
     return 0;
 }
