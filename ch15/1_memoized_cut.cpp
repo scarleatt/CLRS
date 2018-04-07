@@ -46,7 +46,7 @@ int main() {
         v.push_back(INT_MIN);
     memset(s, 0, sizeof(s));
     count=0;
-    res=bottom_up_cut(n);
+    res=memorized_cut(n);
     for (int i=1; i<=n; i++) {
         cout<<s[i]<<" "; count++;
     }
